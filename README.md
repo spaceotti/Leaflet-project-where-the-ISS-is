@@ -34,18 +34,21 @@ Built with Leaflet.js, the ISS API from wheretheiss.at, and TypeScript.
 
 ---
 
-## 📦 Installation & Start
+## 📦 Installation & Setup
 
-Clone das Repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/spaceotti/Leaflet-project-where-the-ISS-is.git
-cd Leaflet-project-where-the-ISS-is```
+cd Leaflet-project-where-the-ISS-is
 
-Install dependencies (for TypeScript):
-`npm install`
+Install dependencies (TypeScript version only):
+npm install
 
 Compile TypeScript:
 npx tsc
+Open the project in your browser:
 
-Open index.html in a browser (or use Live Server in VSCode) to see the ISS tracker in action.
+Simply open index.html, or
+
+Use the Live Server extension in VSCode for automatic reloads
