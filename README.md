@@ -47,8 +47,8 @@ npm install
 
 Compile TypeScript:
 npx tsc
+
 Open the project in your browser:
-
 Simply open index.html, or
-
 Use the Live Server extension in VSCode for automatic reloads
+```
