@@ -40,13 +40,12 @@ Clone das Repository:
 
 ```bash
 git clone https://github.com/spaceotti/Leaflet-project-where-the-ISS-is.git
-cd Leaflet-project-where-the-ISS-is
+cd Leaflet-project-where-the-ISS-is```
 
 Install dependencies (for TypeScript):
-npm install
+`npm install`
 
 Compile TypeScript:
 npx tsc
 
 Open index.html in a browser (or use Live Server in VSCode) to see the ISS tracker in action.
-```
