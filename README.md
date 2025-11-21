@@ -1,45 +1,36 @@
-# 🛰️ ISS Live Tracker — Leaflet + Open APIs
+# 🛰️ ISS Live Tracker — TypeScript Version
 
-Ein kleines, interaktives Projekt, das die **aktuelle Position der Internationalen Raumstation (ISS)** auf einer Weltkarte anzeigt.  
-Gebaut mit **Leaflet.js**, der ISS-API von *wheretheiss.at* und einfachem JavaScript.
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/International_Space_Station_after_undocking_of_STS-132.jpg" width="450">
+This is a small interactive project that displays the current location of the International Space Station (ISS) on a world map in real time.
+Built with Leaflet.js, the ISS API from wheretheiss.at, and TypeScript.
 
 ---
 
 ## 🚀 Features
 
 - **Live-Tracking der ISS**  
-  Die Karte zeigt die aktuelle Position der ISS in Echtzeit.
+  The map shows the ISS’s current position in real time.
 
-- **Regelmäßige Aktualisierung**  
-  Alle paar Sekunden wird die Position automatisch neu geladen.
+- **Automatic Updates**  
+  Position is refreshed every few seconds.
 
-- **Marker auf der Weltkarte**  
-  Mit Leaflet wird die ISS positioniert und dynamisch bewegt.
+- **Marker on the Map**  
+  ISS location is displayed with a marker that moves dynamically.
 
-- **Externe API-Anbindung**  
-  Die Daten werden von  
-  `https://api.wheretheiss.at/v1/satellites/25544`  
-  geladen.
-
-- **Leicht, schnell, ohne Backend**  
-  Reines HTML, CSS & JavaScript.
+- **External API Integration**  
+  Data is fetched from:
+  `https://api.wheretheiss.at/v1/satellites/25544`
+- **Lightweight, No Backend Needed**  
+  Pure HTML, CSS, and compiled TypeScript.
 
 ---
 
-## 📸 Demo
+## 🧰 Technologies Used
 
-> *(Falls du es auf GitHub Pages hosten willst, fügen wir später den Link hier ein!)*
-
----
-
-## 🧰 Verwendete Technologien
-
-- **Leaflet.js** – Open-Source Mapping Library  
-- **Fetch API** – Datenabruf  
-- **Open REST API** – Position der ISS  
-- **HTML + CSS + JavaScript**  
+- **Leaflet.js** – Open-Source Mapping Library
+- **Fetch API** – Datenabruf
+- **Open REST API** – Position der ISS
+- **TypeScript** – Type safety and structured code
+- **HTML + CSS + JavaScript** - (compiled from TS)
 
 ---
 
@@ -50,3 +41,12 @@ Clone das Repository:
 ```bash
 git clone https://github.com/spaceotti/Leaflet-project-where-the-ISS-is.git
 cd Leaflet-project-where-the-ISS-is
+
+Install dependencies (for TypeScript):
+npm install
+
+Compile TypeScript:
+npx tsc
+
+Open index.html in a browser (or use Live Server in VSCode) to see the ISS tracker in action.
+```
